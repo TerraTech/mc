@@ -22,6 +22,9 @@
 # yellow
 #
 
+file ^$ OpenRC\sRunscript\sFile ^#!/sbin/openrc-run
+include sh.syntax
+
 file [Ss]yntax$ Syntax\sHighlighting\sdefinitions ^#\ssyntax\srules\sversion\s
 include syntax.syntax
 
